@@ -40,7 +40,7 @@ def start():
 	
 	getopt=parse.parse_args()
 	print(logo)
-	Log.info("Starting Xssmap for Scanning ...")
+	Log.info("Starting XssForce for Scanning ...")
 	if getopt.u:
 		core.main(getopt.u,getopt.proxy,getopt.user_agent,check(getopt),getopt.cookie,getopt.method)
 		
@@ -55,3 +55,4 @@ def start():
 if __name__=="__main__":
 	start()
  
+
