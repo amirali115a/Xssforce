@@ -24,7 +24,7 @@ def check(getopt):
 	return payload if getopt.payload is None else getopt.payload
 	
 def start():
-	parse=argparse.ArgumentParser(formatter_class=argparse.RawTextHelpFormatter,usage="xssmap -u <target> [options]",add_help=False)
+	parse=argparse.ArgumentParser(formatter_class=argparse.RawTextHelpFormatter,usage="xssforce -u <target> [options]",add_help=False)
 	
 	pos_opt=parse.add_argument_group("Options")
 	pos_opt.add_argument("--help",action="store_true",default=False,help="Show usage and help parameters")
