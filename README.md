@@ -1,5 +1,5 @@
 <p align="center">   
-<img src="image/screens2.png" height="200"><br/>
+<img src="image/screens2.png" height="900"><br/>
 A powerful Tool for scanning Xss vulnerability in Website 
 
 ## Main features
@@ -44,7 +44,7 @@ python3 xssforce.py -u http://testphp.vulnweb.com
 ```
 <br/>
 <p align="center">   
-<img src="image/screens1.png" height="200"><br/>
+<img src="image/screens1.png" height="900"><br/>
 
 
 
